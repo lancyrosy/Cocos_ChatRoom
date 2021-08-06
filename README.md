@@ -6,9 +6,9 @@
 
 - Getting Start: https://docs.cocos.com/creator/manual/en/
 
-- Source Code: https://github.com/lancyrosy/SnakeGame 
+- Project Source Code: https://github.com/lancyrosy/Cocos_Snake 
 
-### Setups for Cocos_ChatRoom (Frontend)
+#### Setups for Cocos_ChatRoom (Frontend)
 
 - Clone/Download Cocos_ChatRoom Project from Github
 
@@ -24,30 +24,36 @@
 
 - Getting Start: https://github.com/lonng/nanoserver
 
-- Source Code: https://github.com/lancyrosy/SnakeGame 
+- Project Source Code: https://github.com/lancyrosy/SnakeGame 
 
 - Nano Websocket Client: https://github.com/nano-ecosystem/nano-websocket-client
 
-### Setups for Nano Server (Backend)
+#### Setups for Nano Server (Backend)
 
 - Install Golang
 
 - Install WampServer (Local SQL Database Server)
 
-- Run Local SQL Database 
+- Run Local SQL Database,login as root without password 
 
-- Define User colomns (For login)
+- Define User colomns (For login) 
 
 - Clone/Download SnakeGame Project from Github
 
-- Run SnakeGame project 
+- Run SnakeGame project by 'go run main.go'
 
-- Test html version (Login different users using different browser)
+- Test SnakeGame/static/index.html 
 
-### Demo 
-![](./chat_room.png)
+- Login different users using different browser
+
+- Test SnakeGame/static/white_chat.html functionality 
+
+#### Demo 
+![](./websocket_html.png)
 
 ## Combine Cocos Project with Nano Server 
+
+- Finish Setups for frontend and backend
 
 - Run SnakeGame project 
 
@@ -55,6 +61,6 @@
 
 - Debug in Browser's console
 
-### Demo 
+#### Demo 
 ![](./chat_room.png)
 ![](./chat_with_WebClient.png)
